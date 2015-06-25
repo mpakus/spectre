@@ -1,0 +1,7 @@
+en:
+  page_not_found: Page not found
+  group_events:
+    ok: ok
+    errors:
+      finish_early_than_start: finish date can't be earlier than start date
+      blank_fields: "Please fill these blank fields:"

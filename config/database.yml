@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *default
+  database: spectre_development
+
+test:
+  <<: *default
+  database: spectre_test
+
+production:
+  <<: *default
+  database: spectre_production
+  username: spectre
+  password: <%= ENV['SPECTRE_DATABASE_PASSWORD'] %>
