@@ -13,5 +13,3 @@ Deliverable:
 Write an AR model, spec and migration for a GroupEvent that would meet the needs of the description above. 
 Then write the api controller and spec to support JSON request/responses to manage these GroupEvents.
 For the purposes of this exercise, ignore auth. 
-
-Please provide these five files within a rails app called YYMMDD_yourname_exercise.zip, sent as a zip file.
